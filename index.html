@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Math Quiz</title>
+	<link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<!--Box for question-->
+	<h1>FUN MATH QUIZ</h1>
+	<div class="wrapper">
+
+	<div id="first-number" class="floating-box"></div>
+	<div id="operator" class="floating-box"></div>
+	<div id="second-number" class="floating-box"></div>
+	<div class="floating-box">=&nbsp;&nbsp;   ?</div>
+	</div>
+	
+	<!--right or wrong-->
+
+	<div id="checker"></div>
+	<br>
+	<br>
+	<!--Box for answer-->
+	<input type="number" class="inputs" id="myNumber" placeholder ="your answer here" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your text'" />
+ 	
+ 	<button type = "button" class="inputs" id="button">CHECK</button>
+	
+	<input type="button" class="inputs" value="Next Question" onClick="window.location.reload()">
+	<script src="start.js"></script>
+</body>
+</html>

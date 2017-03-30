@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  font-family: sans-serif;
+  background-color: white;
+  color: white;
+  
+}
+
+h1 {
+  color: black;
+}
+.wrapper {
+  background-color: black;
+	margin: 100px 50px;
+  color: white;
+}
+.floating-box {
+    display: inline-block;
+    width: 150px;
+    height: 75px;
+    margin: 10px auto;
+    text-align: center; 
+    font-size: 3em; 
+}
+
+#checker {
+  margin: 0;
+  background-color: black;
+
+}
+
+input[type="number"] {
+  border: solid 1px black;
+  transition: box-shadow 0.3s, border 0.3s;
+  height: 75px;
+	text-align: center; 
+  font-size: 3em;
+
+	
+}
+
+input[type="number"]:focus,
+input[type="number"].focus {
+  border: solid 1px #707070;
+  box-shadow: 0 0 2px 1px #969696;
+}
+
+button, input[type=button] {
+  padding: 15px 25px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: black;
+  border: solid 0.3px white;
+  border-radius: 15px;
+  box-shadow: 0 2px white;
+  
+}
+button:hover, input[type=button]:hover {background-color: gray}
+
+button:active, input[type=button]:active {
+  background-color: gold;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+
+
+.inputs {
+  display: inline-block;
+}
